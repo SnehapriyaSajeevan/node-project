@@ -13,3 +13,6 @@ app.post('/createdata',(req,res)=>{
     console.log(data);
     res.send("data recieved");
 });
+app.listen(port,()=>{
+    console.log("successfull");
+})
